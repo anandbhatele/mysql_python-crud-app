@@ -120,7 +120,7 @@ while True:
                     cursor.execute(sql)
                     data=cursor.fetchall()
                     for i in data:
-                        print(f"name:--{i[0]},age:{i[1]},course:{i[2]}")
+                        print(f"name:{i[0]},age:{i[1]},course:{i[2]}")
                 except Exception as a :
                     print("Error....",a)
 
@@ -164,5 +164,6 @@ while True:
         
 
             
+
 
 
